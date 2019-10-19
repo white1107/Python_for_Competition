@@ -1,0 +1,98 @@
+
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"input": {
+		"prefix": "in",
+		"body": [
+			"input()"
+		],
+		"description": "Log output to console"
+	},
+	"Int input": {
+		"prefix": "ii",
+		"body": [
+			"int(input())"
+		],
+		"description": "Log output to console"
+	},
+	"List input":  {
+		"prefix": "il",
+		"body": [
+			"list(map(int,input().split()))"
+		],
+		"description": "Log output to console"
+	},
+	"Map input": {
+		"prefix": "im",
+		"body": [
+			"map(int,input().split())"
+		],
+		"description": "Log output to console"
+	},
+	"Row input": {
+		"prefix": "ir",
+		"body": [
+			"for i in range(N):",
+			"\tl=[]",
+			"\tl.append(int(input()))"
+		],
+		"description": "Log output to console"
+	},
+	"for enumerate": {
+		"prefix": "fe",
+		"body": [
+			"for n,x in enumerate(l):"
+		],
+		"description": "Log output to console"
+	},                
+	"for enumerate zip": {
+		"prefix": "fez",
+		"body": [
+			"for n,(x,y) in enumerate(zip(l,l[1:])):"
+		],
+		"description": "Log output to console"
+	},    
+	"MOD": {
+		"prefix": "mod",
+		"body": [
+			"MOD = 10**9+7"
+		],
+		"description": "Log output to console"
+	},    
+	"gcd": {
+		"prefix": "gcd",
+		"body": [
+			"def gcd(x,y):",
+			"\tif x==0:return y",
+			"\telse:return gcd(y%x,x)"
+		],
+		"description": "Log output to console"
+	},                 
+	"import lib": {
+		"prefix": "im",
+		"body": [
+			"from collections import defaultdict",
+			"from collections import deque",
+			"import math"
+		],
+		"description": "Log output to console"
+	},                 
+	"Print Yes/No": {
+		"prefix": "py",
+		"body": [
+			"def Y(a,t = 0):",
+			"\tif a==t : print('YES')", 
+			"\telse : print('NO')",
+			"def y(a, t =0):",
+			"\tif a==t : print('Yes')",
+			"\telse : print('No')"
+	
+		],
+		"description": "Log output to console"
+	},
+	
+}

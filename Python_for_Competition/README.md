@@ -1,0 +1,2 @@
+# Python_for_Competition
+競技プログラミング用のPythonのコードまとめとく
